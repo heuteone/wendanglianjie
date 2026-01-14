@@ -51,7 +51,7 @@ proxy-providers:
   # 一号订阅源 - 优质节点集合，使用时请修改
   一号服务商: {<<: *BaseProvider, url: 'https://kc.xn--xhqy01cv5qjky.com/s/0f3f1e881d9495df8457d592adcb4d25', override: {additional-prefix: '[烤肠] '}}
   # 二号订阅源 - 次优节点集合，使用时请修改
-  二号服务商: {<<: *BaseProvider, url: 'https://login.91unicorn.cc/api/v1/client/subscribe?token=127dbd7c90d907dadb82550154177ad6', override: {additional-prefix: '[独角兽] '}}
+  二号服务商: {<<: *BaseProvider, url: 'https://ree.ed-novas.com/2cvme3wa8i/132aade751a18d49b664be1b25efda46', override: {additional-prefix: '[ednovas] '}}
   # 三号订阅源 - 次次优节点集合，使用时请修改
   三号服务商: {<<: *BaseProvider, url: 'https://jsjc.cfd/api/v1/client/subscribe?token=11fb10f898ec667636758891adf5d283&flag=meta', override: {additional-prefix: '[极速] '}}
 # ==================== 核心配置 ====================
