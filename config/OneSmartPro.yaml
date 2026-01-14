@@ -49,12 +49,8 @@ SelectLR: &SelectLR {type: select, proxies: [低倍率线路, 高质量线路, �
 
 # ==================== 代理提供者 ====================
 proxy-providers:
-  # 优质订阅源 - 优质节点集合，使用时请修改
-  优质服务商: {<<: *BaseProvider, url: '优质订阅源地址', override: {additional-prefix: '[优] '}}
-  # 备用订阅源 - 次优节点集合，使用时请修改
-  备用服务商: {<<: *BaseProvider, url: '备用订阅源地址', override: {additional-prefix: '[备] '}}
-  # 落地订阅源 - 落地服务连接，使用时请修改
-  落地服务商: {<<: *BaseProvider, url: '落地订阅源地址', override: {additional-prefix: '[中] ', dialer-proxy: 中转服务}}
+  二号服务商: {<<: *BaseProvider, url: 'https://ree.ed-novas.com/2cvme3wa8i/132aade751a18d49b664be1b25efda46', override: {additional-prefix: '[ednovas] '}}
+  三号服务商: {<<: *BaseProvider, url: 'https://jsjc.cfd/api/v1/client/subscribe?token=11fb10f898ec667636758891adf5d283&flag=meta', override: {additional-prefix: '[极速] '}}
 
 # ==================== 监听器 ====================
 listeners:
