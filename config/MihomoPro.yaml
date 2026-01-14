@@ -49,7 +49,7 @@ SelectUS: &SelectUS {type: select, proxies: [美国策略, 默认代理, 故障�
 # 注意：请提供您的机场订阅链接，每个链接一行，并为每个机场命名，末尾的[优][备]为每个节点添加机场名称前缀，可自定义
 proxy-providers:
   # 一号订阅源 - 优质节点集合，使用时请修改
-  一号服务商: {<<: *BaseProvider, url: 'https://kc.xn--xhqy01cv5qjky.com/s/0f3f1e881d9495df8457d592adcb4d25', override: {additional-prefix: '[烤肠] '}}
+  #一号服务商: {<<: *BaseProvider, url: 'https://kc.xn--xhqy01cv5qjky.com/s/0f3f1e881d9495df8457d592adcb4d25', override: {additional-prefix: '[烤肠] '}}
   # 二号订阅源 - 次优节点集合，使用时请修改
   二号服务商: {<<: *BaseProvider, url: 'https://ree.ed-novas.com/2cvme3wa8i/132aade751a18d49b664be1b25efda46', override: {additional-prefix: '[ednovas] '}}
   # 三号订阅源 - 次次优节点集合，使用时请修改
