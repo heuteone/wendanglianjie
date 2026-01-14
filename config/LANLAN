@@ -17,25 +17,25 @@ proxy-providers:
   Airport_01:
     <<: *PProviders
     proxy: "故障转移"
-    url: "订阅链接1"
+    url: "https://kc.xn--xhqy01cv5qjky.com/s/0f3f1e881d9495df8457d592adcb4d25"
     override:
-      additional-prefix: '[机场名称1]'
+      additional-prefix: '[烤肠]'
       skip-cert-verify: true
       udp: true
   Airport_02:
     <<: *PProviders
     proxy: "故障转移"
-    url: "订阅链接2"
+    url: "https://ree.ed-novas.com/2cvme3wa8i/132aade751a18d49b664be1b25efda46"
     override:
-      additional-prefix: '[机场名称2]'
+      additional-prefix: '[ednovas]'
       skip-cert-verify: true
       udp: true
   Airport_03:
     <<: *PProviders
     proxy: "故障转移"
-    url: "订阅链接3"
+    url: "https://jsjc.cfd/api/v1/client/subscribe?token=11fb10f898ec667636758891adf5d283&flag=meta"
     override:
-      additional-prefix: '[机场名称3]'
+      additional-prefix: '[极速]'
       skip-cert-verify: true
       udp: true
 
